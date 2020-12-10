@@ -311,5 +311,10 @@ public class BeatCounter : MonoBehaviour
     {
         SceneManager.LoadScene(sceneName);
     }
+
+    public void ReturnToMenu()
+    {
+        SceneManager.LoadScene(0);
+    }
     #endregion
 }
