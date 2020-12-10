@@ -178,40 +178,40 @@ public class BeatObject : MonoBehaviour
         **/
         if ((Input.GetKeyDown(KeyCode.W)) && (gameObject.tag == "FaceButton_Up"))
         {
-            Debug.Log("W");
+            //Debug.Log("W");
             IsHit();
         }
         else if ((Input.GetKeyDown(KeyCode.S)) && (gameObject.tag == "FaceButton_Down"))
         {
-            Debug.Log("S");
+            //Debug.Log("S");
             IsHit();
         }
         else if ((Input.GetKeyDown(KeyCode.A)) && (gameObject.tag == "FaceButton_Left"))
         {
-            Debug.Log("A");
+            //Debug.Log("A");
             IsHit();
         }
         else if ((Input.GetKeyDown(KeyCode.D)) && (gameObject.tag == "FaceButton_Right"))
         {
-            Debug.Log("D");
+            //Debug.Log("D");
             IsHit();
         }
 
         if ((Input.GetKeyDown(KeyCode.Y)) && (gameObject.tag == "FaceButton_X"))
         {
-            Debug.Log("Y");
+            //Debug.Log("Y");
             IsHit();
         } else if ((Input.GetKeyDown(KeyCode.U)) && (gameObject.tag == "FaceButton_O"))
         {
-            Debug.Log("U");
+            //Debug.Log("U");
             IsHit();
         } else if ((Input.GetKeyDown(KeyCode.I)) && (gameObject.tag == "FaceButton_Tri"))
         {
-            Debug.Log("I");
+            //Debug.Log("I");
             IsHit();
         } else if ((Input.GetKeyDown(KeyCode.O)) && (gameObject.tag == "FaceButton_Sq"))
         {
-            Debug.Log("O");
+            //Debug.Log("O");
             IsHit();
         }
 

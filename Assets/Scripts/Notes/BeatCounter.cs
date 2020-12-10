@@ -214,7 +214,7 @@ public class BeatCounter : MonoBehaviour
         // New health system
         playerHealth -= 10;
 
-        Debug.Log("Misses: " + missedBeats);
+        // Debug.Log("Misses: " + missedBeats);
 
         //* NEW HEALTH SYSTEM
         if (playerHealth <= 0)
