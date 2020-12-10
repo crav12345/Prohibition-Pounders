@@ -236,6 +236,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6786071}
   m_CullTransparentMesh: 0
+--- !u!1 &17415153 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3313511772235001971, guid: 343656d434157e14c818c8264c333aea,
+    type: 3}
+  m_PrefabInstance: {fileID: 766942980}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &19183659
 GameObject:
   m_ObjectHideFlags: 0
@@ -459,6 +465,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 19712750}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &24201894 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3313511772235001971, guid: 343656d434157e14c818c8264c333aea,
+    type: 3}
+  m_PrefabInstance: {fileID: 568121017}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &33737907 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3313511772235001971, guid: 343656d434157e14c818c8264c333aea,
+    type: 3}
+  m_PrefabInstance: {fileID: 1238155781}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &40554795
 GameObject:
   m_ObjectHideFlags: 0
@@ -1386,6 +1404,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 96192843}
   m_CullTransparentMesh: 0
+--- !u!1 &102766254 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3313511772235001971, guid: 343656d434157e14c818c8264c333aea,
+    type: 3}
+  m_PrefabInstance: {fileID: 1618931091}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &103903772
 GameObject:
   m_ObjectHideFlags: 0
@@ -1952,6 +1976,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 154131159}
   m_CullTransparentMesh: 0
+--- !u!1 &155710501 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3313511772235001971, guid: 343656d434157e14c818c8264c333aea,
+    type: 3}
+  m_PrefabInstance: {fileID: 619551871}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &157856404
 GameObject:
   m_ObjectHideFlags: 0
@@ -2179,6 +2209,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 158171833}
   m_CullTransparentMesh: 0
+--- !u!1 &162483348 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3313511772235001971, guid: 343656d434157e14c818c8264c333aea,
+    type: 3}
+  m_PrefabInstance: {fileID: 1315136012}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &167570313
 GameObject:
   m_ObjectHideFlags: 0
@@ -2254,6 +2290,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 167570313}
   m_CullTransparentMesh: 0
+--- !u!1 &193698873 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2119725605737133191, guid: 343656d434157e14c818c8264c333aea,
+    type: 3}
+  m_PrefabInstance: {fileID: 1179903863}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &201345120
 GameObject:
   m_ObjectHideFlags: 0
@@ -2820,6 +2862,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 214545315}
   m_CullTransparentMesh: 0
+--- !u!1 &227611466 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2119725605737133191, guid: 343656d434157e14c818c8264c333aea,
+    type: 3}
+  m_PrefabInstance: {fileID: 619551871}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &230872675
 GameObject:
   m_ObjectHideFlags: 0
@@ -3159,6 +3207,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 259390037}
   m_CullTransparentMesh: 0
+--- !u!1 &278549899 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2119725605737133191, guid: 343656d434157e14c818c8264c333aea,
+    type: 3}
+  m_PrefabInstance: {fileID: 1315136012}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &290097001
 GameObject:
   m_ObjectHideFlags: 0
@@ -3254,10 +3308,12 @@ RectTransform:
   - {fileID: 853683161}
   - {fileID: 811929577}
   - {fileID: 652432018}
+  - {fileID: 650385345}
+  - {fileID: 403477546}
   - {fileID: 492225478}
   - {fileID: 1968269872}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -3328,6 +3384,31 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 120393831}
     m_Modifications:
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: enemy
+      value: 
+      objectReference: {fileID: 616284600}
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: img
+      value: 
+      objectReference: {fileID: 1249307390}
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: newParent
+      value: 
+      objectReference: {fileID: 811929576}
+    - target: {fileID: 1395849690669339006, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: soundEffects
+      value: 
+      objectReference: {fileID: 811929578}
+    - target: {fileID: 1395849690669339006, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: buttonType
+      value: 
+      objectReference: {fileID: 811929580}
     - target: {fileID: 3313511772235001970, guid: 343656d434157e14c818c8264c333aea,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3484,6 +3565,12 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &313256533 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3313511772235001971, guid: 343656d434157e14c818c8264c333aea,
+    type: 3}
+  m_PrefabInstance: {fileID: 1890934880}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &319180447
 GameObject:
   m_ObjectHideFlags: 0
@@ -3604,6 +3691,31 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1462668500}
     m_Modifications:
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: enemy
+      value: 
+      objectReference: {fileID: 574235536}
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: img
+      value: 
+      objectReference: {fileID: 1199265125}
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: newParent
+      value: 
+      objectReference: {fileID: 811929576}
+    - target: {fileID: 1395849690669339006, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: soundEffects
+      value: 
+      objectReference: {fileID: 811929578}
+    - target: {fileID: 1395849690669339006, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: buttonType
+      value: 
+      objectReference: {fileID: 811929580}
     - target: {fileID: 3313511772235001970, guid: 343656d434157e14c818c8264c333aea,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3843,6 +3955,31 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1333819508}
     m_Modifications:
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: enemy
+      value: 
+      objectReference: {fileID: 663029149}
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: img
+      value: 
+      objectReference: {fileID: 1828300538}
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: newParent
+      value: 
+      objectReference: {fileID: 811929576}
+    - target: {fileID: 1395849690669339006, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: soundEffects
+      value: 
+      objectReference: {fileID: 811929578}
+    - target: {fileID: 1395849690669339006, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: buttonType
+      value: 
+      objectReference: {fileID: 811929580}
     - target: {fileID: 3313511772235001970, guid: 343656d434157e14c818c8264c333aea,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4640,6 +4777,80 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 401467313}
   m_CullTransparentMesh: 0
+--- !u!1 &403477545
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 403477546}
+  - component: {fileID: 403477548}
+  - component: {fileID: 403477547}
+  m_Layer: 5
+  m_Name: PlayerUICollider_Outer
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &403477546
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 403477545}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 100}
+  m_LocalScale: {x: 0.1503808, y: 0.1503808, z: 0.1503808}
+  m_Children: []
+  m_Father: {fileID: 290097005}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -244.99998, y: -192}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!50 &403477547
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 403477545}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!58 &403477548
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 403477545}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 300
 --- !u!1 &411954823
 GameObject:
   m_ObjectHideFlags: 0
@@ -4986,6 +5197,31 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 960193244}
     m_Modifications:
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: enemy
+      value: 
+      objectReference: {fileID: 1162377962}
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: img
+      value: 
+      objectReference: {fileID: 2006497853}
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: newParent
+      value: 
+      objectReference: {fileID: 811929576}
+    - target: {fileID: 1395849690669339006, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: soundEffects
+      value: 
+      objectReference: {fileID: 811929578}
+    - target: {fileID: 1395849690669339006, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: buttonType
+      value: 
+      objectReference: {fileID: 811929580}
     - target: {fileID: 3313511772235001970, guid: 343656d434157e14c818c8264c333aea,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5330,6 +5566,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 440968925}
   m_CullTransparentMesh: 0
+--- !u!1 &442445526 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2119725605737133191, guid: 343656d434157e14c818c8264c333aea,
+    type: 3}
+  m_PrefabInstance: {fileID: 568121017}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &442682337
 GameObject:
   m_ObjectHideFlags: 0
@@ -5970,6 +6212,31 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 65447357}
     m_Modifications:
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: enemy
+      value: 
+      objectReference: {fileID: 1853382919}
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: img
+      value: 
+      objectReference: {fileID: 1234390781}
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: newParent
+      value: 
+      objectReference: {fileID: 811929576}
+    - target: {fileID: 1395849690669339006, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: soundEffects
+      value: 
+      objectReference: {fileID: 811929578}
+    - target: {fileID: 1395849690669339006, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: buttonType
+      value: 
+      objectReference: {fileID: 811929580}
     - target: {fileID: 3313511772235001970, guid: 343656d434157e14c818c8264c333aea,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6201,6 +6468,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 482304651}
   m_CullTransparentMesh: 0
+--- !u!1 &484407384 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3313511772235001971, guid: 343656d434157e14c818c8264c333aea,
+    type: 3}
+  m_PrefabInstance: {fileID: 527890597}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &492225477
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6261,7 +6534,7 @@ PrefabInstance:
     - target: {fileID: 3061345049815782591, guid: b1f8cb9dc08292242a45688c9e00dbf9,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3061345049815782591, guid: b1f8cb9dc08292242a45688c9e00dbf9,
         type: 3}
@@ -6710,6 +6983,31 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 623045228}
     m_Modifications:
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: enemy
+      value: 
+      objectReference: {fileID: 484407384}
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: img
+      value: 
+      objectReference: {fileID: 1831275399}
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: newParent
+      value: 
+      objectReference: {fileID: 811929576}
+    - target: {fileID: 1395849690669339006, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: soundEffects
+      value: 
+      objectReference: {fileID: 811929578}
+    - target: {fileID: 1395849690669339006, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: buttonType
+      value: 
+      objectReference: {fileID: 811929580}
     - target: {fileID: 3313511772235001970, guid: 343656d434157e14c818c8264c333aea,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7079,6 +7377,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 553203729}
   m_CullTransparentMesh: 0
+--- !u!1 &562770267 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2119725605737133191, guid: 343656d434157e14c818c8264c333aea,
+    type: 3}
+  m_PrefabInstance: {fileID: 1618931091}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &563945293
 GameObject:
   m_ObjectHideFlags: 0
@@ -7221,6 +7525,31 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 376150361}
     m_Modifications:
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: enemy
+      value: 
+      objectReference: {fileID: 24201894}
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: img
+      value: 
+      objectReference: {fileID: 442445526}
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: newParent
+      value: 
+      objectReference: {fileID: 811929576}
+    - target: {fileID: 1395849690669339006, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: soundEffects
+      value: 
+      objectReference: {fileID: 811929578}
+    - target: {fileID: 1395849690669339006, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: buttonType
+      value: 
+      objectReference: {fileID: 811929580}
     - target: {fileID: 3313511772235001970, guid: 343656d434157e14c818c8264c333aea,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7338,6 +7667,18 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3313511772235001970, guid: 343656d434157e14c818c8264c333aea,
     type: 3}
   m_PrefabInstance: {fileID: 568121017}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &570830270 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2119725605737133191, guid: 343656d434157e14c818c8264c333aea,
+    type: 3}
+  m_PrefabInstance: {fileID: 1238155781}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &574235536 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3313511772235001971, guid: 343656d434157e14c818c8264c333aea,
+    type: 3}
+  m_PrefabInstance: {fileID: 320668459}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &580248684
 GameObject:
@@ -8152,6 +8493,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 614243726}
   m_CullTransparentMesh: 0
+--- !u!1 &616284600 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3313511772235001971, guid: 343656d434157e14c818c8264c333aea,
+    type: 3}
+  m_PrefabInstance: {fileID: 303389315}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &616774647
 GameObject:
   m_ObjectHideFlags: 0
@@ -8272,6 +8619,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 321459424}
     m_Modifications:
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: enemy
+      value: 
+      objectReference: {fileID: 155710501}
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: img
+      value: 
+      objectReference: {fileID: 227611466}
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: newParent
+      value: 
+      objectReference: {fileID: 811929576}
     - target: {fileID: 3313511772235001970, guid: 343656d434157e14c818c8264c333aea,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8511,6 +8873,31 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1468263809}
     m_Modifications:
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: enemy
+      value: 
+      objectReference: {fileID: 1990112261}
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: img
+      value: 
+      objectReference: {fileID: 2076617523}
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: newParent
+      value: 
+      objectReference: {fileID: 811929576}
+    - target: {fileID: 1395849690669339006, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: buttonType
+      value: 
+      objectReference: {fileID: 811929580}
+    - target: {fileID: 1395849690669339006, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: soundEffects
+      value: 
+      objectReference: {fileID: 811929578}
     - target: {fileID: 3313511772235001970, guid: 343656d434157e14c818c8264c333aea,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9100,6 +9487,80 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 642974216}
   m_CullTransparentMesh: 0
+--- !u!1 &650385344
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 650385345}
+  - component: {fileID: 650385347}
+  - component: {fileID: 650385346}
+  m_Layer: 5
+  m_Name: PlayerUICollider_Inner
+  m_TagString: Reaction
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &650385345
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 650385344}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 100}
+  m_LocalScale: {x: 0.1503808, y: 0.1503808, z: 0.1503808}
+  m_Children: []
+  m_Father: {fileID: 290097005}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -200.00002, y: -110.00001}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!50 &650385346
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 650385344}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!58 &650385347
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 650385344}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 200
 --- !u!1 &652432017
 GameObject:
   m_ObjectHideFlags: 0
@@ -9139,6 +9600,12 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &663029149 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3313511772235001971, guid: 343656d434157e14c818c8264c333aea,
+    type: 3}
+  m_PrefabInstance: {fileID: 322704590}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &677104544
 GameObject:
   m_ObjectHideFlags: 0
@@ -9591,6 +10058,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 725200176}
   m_CullTransparentMesh: 0
+--- !u!1 &734950138 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2119725605737133191, guid: 343656d434157e14c818c8264c333aea,
+    type: 3}
+  m_PrefabInstance: {fileID: 766942980}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &752704844
 GameObject:
   m_ObjectHideFlags: 0
@@ -9733,6 +10206,31 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1159123210}
     m_Modifications:
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: enemy
+      value: 
+      objectReference: {fileID: 1350415973}
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: img
+      value: 
+      objectReference: {fileID: 2081488670}
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: newParent
+      value: 
+      objectReference: {fileID: 811929576}
+    - target: {fileID: 1395849690669339006, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: soundEffects
+      value: 
+      objectReference: {fileID: 811929578}
+    - target: {fileID: 1395849690669339006, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: buttonType
+      value: 
+      objectReference: {fileID: 811929580}
     - target: {fileID: 3313511772235001970, guid: 343656d434157e14c818c8264c333aea,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9858,6 +10356,31 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 504855916}
     m_Modifications:
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: enemy
+      value: 
+      objectReference: {fileID: 17415153}
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: img
+      value: 
+      objectReference: {fileID: 734950138}
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: newParent
+      value: 
+      objectReference: {fileID: 811929576}
+    - target: {fileID: 1395849690669339006, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: soundEffects
+      value: 
+      objectReference: {fileID: 811929578}
+    - target: {fileID: 1395849690669339006, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: buttonType
+      value: 
+      objectReference: {fileID: 811929580}
     - target: {fileID: 3313511772235001970, guid: 343656d434157e14c818c8264c333aea,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9975,6 +10498,12 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3313511772235001970, guid: 343656d434157e14c818c8264c333aea,
     type: 3}
   m_PrefabInstance: {fileID: 766942980}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &767176508 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3313511772235001971, guid: 343656d434157e14c818c8264c333aea,
+    type: 3}
+  m_PrefabInstance: {fileID: 911290923}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &770149649
 GameObject:
@@ -10698,6 +11227,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tempo: 2200
   isStarted: 0
+--- !u!1 &812354503 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3313511772235001971, guid: 343656d434157e14c818c8264c333aea,
+    type: 3}
+  m_PrefabInstance: {fileID: 1154462832}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &818069905
 GameObject:
   m_ObjectHideFlags: 0
@@ -11562,6 +12097,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 874992971}
   m_CullTransparentMesh: 0
+--- !u!1 &878981823 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2119725605737133191, guid: 343656d434157e14c818c8264c333aea,
+    type: 3}
+  m_PrefabInstance: {fileID: 944866829}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &893127675 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2119725605737133191, guid: 343656d434157e14c818c8264c333aea,
+    type: 3}
+  m_PrefabInstance: {fileID: 1758616107}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &893871043
 GameObject:
   m_ObjectHideFlags: 0
@@ -11682,6 +12229,31 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1027064300}
     m_Modifications:
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: newParent
+      value: 
+      objectReference: {fileID: 811929576}
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: enemy
+      value: 
+      objectReference: {fileID: 767176508}
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: img
+      value: 
+      objectReference: {fileID: 1927870594}
+    - target: {fileID: 1395849690669339006, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: soundEffects
+      value: 
+      objectReference: {fileID: 811929578}
+    - target: {fileID: 1395849690669339006, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: buttonType
+      value: 
+      objectReference: {fileID: 811929580}
     - target: {fileID: 3313511772235001970, guid: 343656d434157e14c818c8264c333aea,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12033,6 +12605,31 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1272261665}
     m_Modifications:
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: enemy
+      value: 
+      objectReference: {fileID: 1739464814}
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: img
+      value: 
+      objectReference: {fileID: 2019464075}
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: newParent
+      value: 
+      objectReference: {fileID: 811929576}
+    - target: {fileID: 1395849690669339006, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: soundEffects
+      value: 
+      objectReference: {fileID: 811929578}
+    - target: {fileID: 1395849690669339006, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: buttonType
+      value: 
+      objectReference: {fileID: 811929580}
     - target: {fileID: 3313511772235001970, guid: 343656d434157e14c818c8264c333aea,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12158,6 +12755,31 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1516466323}
     m_Modifications:
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: enemy
+      value: 
+      objectReference: {fileID: 2107765847}
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: img
+      value: 
+      objectReference: {fileID: 878981823}
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: newParent
+      value: 
+      objectReference: {fileID: 811929576}
+    - target: {fileID: 1395849690669339006, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: soundEffects
+      value: 
+      objectReference: {fileID: 811929578}
+    - target: {fileID: 1395849690669339006, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: buttonType
+      value: 
+      objectReference: {fileID: 811929580}
     - target: {fileID: 3313511772235001970, guid: 343656d434157e14c818c8264c333aea,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12578,6 +13200,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 960193243}
   m_CullTransparentMesh: 0
+--- !u!1 &966853704 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3313511772235001971, guid: 343656d434157e14c818c8264c333aea,
+    type: 3}
+  m_PrefabInstance: {fileID: 1179903863}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &967979012
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12585,6 +13213,31 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1624780387}
     m_Modifications:
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: enemy
+      value: 
+      objectReference: {fileID: 1533226399}
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: img
+      value: 
+      objectReference: {fileID: 1642701720}
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: newParent
+      value: 
+      objectReference: {fileID: 811929576}
+    - target: {fileID: 1395849690669339006, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: soundEffects
+      value: 
+      objectReference: {fileID: 811929578}
+    - target: {fileID: 1395849690669339006, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: buttonType
+      value: 
+      objectReference: {fileID: 811929580}
     - target: {fileID: 3313511772235001970, guid: 343656d434157e14c818c8264c333aea,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13879,6 +14532,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1095685955}
   m_CullTransparentMesh: 0
+--- !u!1 &1100444359 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2119725605737133191, guid: 343656d434157e14c818c8264c333aea,
+    type: 3}
+  m_PrefabInstance: {fileID: 1890934880}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1108018033
 GameObject:
   m_ObjectHideFlags: 0
@@ -14225,6 +14884,31 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1629390283}
     m_Modifications:
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: enemy
+      value: 
+      objectReference: {fileID: 812354503}
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: img
+      value: 
+      objectReference: {fileID: 1161398328}
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: newParent
+      value: 
+      objectReference: {fileID: 811929576}
+    - target: {fileID: 1395849690669339006, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: soundEffects
+      value: 
+      objectReference: {fileID: 811929578}
+    - target: {fileID: 1395849690669339006, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: buttonType
+      value: 
+      objectReference: {fileID: 811929580}
     - target: {fileID: 3313511772235001970, guid: 343656d434157e14c818c8264c333aea,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14457,6 +15141,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1159123209}
   m_CullTransparentMesh: 0
+--- !u!1 &1161398328 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2119725605737133191, guid: 343656d434157e14c818c8264c333aea,
+    type: 3}
+  m_PrefabInstance: {fileID: 1154462832}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1162377962 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3313511772235001971, guid: 343656d434157e14c818c8264c333aea,
+    type: 3}
+  m_PrefabInstance: {fileID: 419988755}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1165377723
 GameObject:
   m_ObjectHideFlags: 0
@@ -14725,6 +15421,31 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 480264277}
     m_Modifications:
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: enemy
+      value: 
+      objectReference: {fileID: 966853704}
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: img
+      value: 
+      objectReference: {fileID: 193698873}
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: newParent
+      value: 
+      objectReference: {fileID: 811929576}
+    - target: {fileID: 1395849690669339006, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: soundEffects
+      value: 
+      objectReference: {fileID: 811929578}
+    - target: {fileID: 1395849690669339006, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: buttonType
+      value: 
+      objectReference: {fileID: 811929580}
     - target: {fileID: 3313511772235001970, guid: 343656d434157e14c818c8264c333aea,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14956,6 +15677,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1198698165}
   m_CullTransparentMesh: 0
+--- !u!1 &1199265125 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2119725605737133191, guid: 343656d434157e14c818c8264c333aea,
+    type: 3}
+  m_PrefabInstance: {fileID: 320668459}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1205862591
 GameObject:
   m_ObjectHideFlags: 0
@@ -15088,6 +15815,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1205862591}
   m_CullTransparentMesh: 0
+--- !u!1 &1215097454 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3313511772235001971, guid: 343656d434157e14c818c8264c333aea,
+    type: 3}
+  m_PrefabInstance: {fileID: 1288545323}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1216888701
 GameObject:
   m_ObjectHideFlags: 0
@@ -15201,6 +15934,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1216888701}
   m_CullTransparentMesh: 0
+--- !u!1 &1234390781 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2119725605737133191, guid: 343656d434157e14c818c8264c333aea,
+    type: 3}
+  m_PrefabInstance: {fileID: 480337954}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1238155781
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15208,6 +15947,31 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557050219}
     m_Modifications:
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: enemy
+      value: 
+      objectReference: {fileID: 33737907}
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: img
+      value: 
+      objectReference: {fileID: 570830270}
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: newParent
+      value: 
+      objectReference: {fileID: 811929576}
+    - target: {fileID: 1395849690669339006, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: soundEffects
+      value: 
+      objectReference: {fileID: 811929578}
+    - target: {fileID: 1395849690669339006, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: buttonType
+      value: 
+      objectReference: {fileID: 811929580}
     - target: {fileID: 3313511772235001970, guid: 343656d434157e14c818c8264c333aea,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15325,6 +16089,12 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3313511772235001970, guid: 343656d434157e14c818c8264c333aea,
     type: 3}
   m_PrefabInstance: {fileID: 1238155781}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1244453901 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2119725605737133191, guid: 343656d434157e14c818c8264c333aea,
+    type: 3}
+  m_PrefabInstance: {fileID: 2054863324}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1248551220
 GameObject:
@@ -15553,6 +16323,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1248702485}
   m_CullTransparentMesh: 0
+--- !u!1 &1249307390 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2119725605737133191, guid: 343656d434157e14c818c8264c333aea,
+    type: 3}
+  m_PrefabInstance: {fileID: 303389315}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1253616465
 GameObject:
   m_ObjectHideFlags: 0
@@ -16013,6 +16789,31 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 442682338}
     m_Modifications:
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: enemy
+      value: 
+      objectReference: {fileID: 1215097454}
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: img
+      value: 
+      objectReference: {fileID: 2087955085}
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: newParent
+      value: 
+      objectReference: {fileID: 811929576}
+    - target: {fileID: 1395849690669339006, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: soundEffects
+      value: 
+      objectReference: {fileID: 811929578}
+    - target: {fileID: 1395849690669339006, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: buttonType
+      value: 
+      objectReference: {fileID: 811929580}
     - target: {fileID: 3313511772235001970, guid: 343656d434157e14c818c8264c333aea,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16394,6 +17195,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1304015500}
   m_CullTransparentMesh: 0
+--- !u!1 &1304332013 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3313511772235001971, guid: 343656d434157e14c818c8264c333aea,
+    type: 3}
+  m_PrefabInstance: {fileID: 1758616107}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1315136012
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16401,6 +17208,31 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 833007317}
     m_Modifications:
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: enemy
+      value: 
+      objectReference: {fileID: 162483348}
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: img
+      value: 
+      objectReference: {fileID: 278549899}
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: newParent
+      value: 
+      objectReference: {fileID: 811929576}
+    - target: {fileID: 1395849690669339006, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: soundEffects
+      value: 
+      objectReference: {fileID: 811929578}
+    - target: {fileID: 1395849690669339006, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: buttonType
+      value: 
+      objectReference: {fileID: 811929580}
     - target: {fileID: 3313511772235001970, guid: 343656d434157e14c818c8264c333aea,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -17002,6 +17834,31 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1334335276}
     m_Modifications:
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: enemy
+      value: 
+      objectReference: {fileID: 1693426811}
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: img
+      value: 
+      objectReference: {fileID: 1397563498}
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: newParent
+      value: 
+      objectReference: {fileID: 811929576}
+    - target: {fileID: 1395849690669339006, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: buttonType
+      value: 
+      objectReference: {fileID: 811929580}
+    - target: {fileID: 1395849690669339006, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: soundEffects
+      value: 
+      objectReference: {fileID: 811929578}
     - target: {fileID: 3313511772235001970, guid: 343656d434157e14c818c8264c333aea,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -17119,6 +17976,12 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3313511772235001970, guid: 343656d434157e14c818c8264c333aea,
     type: 3}
   m_PrefabInstance: {fileID: 1348553815}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1350415973 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3313511772235001971, guid: 343656d434157e14c818c8264c333aea,
+    type: 3}
+  m_PrefabInstance: {fileID: 762823087}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1358463986
 GameObject:
@@ -17686,6 +18549,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1391368535}
   m_CullTransparentMesh: 0
+--- !u!1 &1397563498 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2119725605737133191, guid: 343656d434157e14c818c8264c333aea,
+    type: 3}
+  m_PrefabInstance: {fileID: 1348553815}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1403342537
 GameObject:
   m_ObjectHideFlags: 0
@@ -18365,6 +19234,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1432295658}
   m_CullTransparentMesh: 0
+--- !u!1 &1432972126 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2119725605737133191, guid: 343656d434157e14c818c8264c333aea,
+    type: 3}
+  m_PrefabInstance: {fileID: 2047653294}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1434922029
 GameObject:
   m_ObjectHideFlags: 0
@@ -19954,7 +20829,7 @@ Transform:
   m_Children:
   - {fileID: 19712751}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1523089816
 GameObject:
@@ -20182,6 +21057,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1530361108}
   m_CullTransparentMesh: 0
+--- !u!1 &1533226399 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3313511772235001971, guid: 343656d434157e14c818c8264c333aea,
+    type: 3}
+  m_PrefabInstance: {fileID: 967979012}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1542984062
 GameObject:
   m_ObjectHideFlags: 0
@@ -20993,6 +21874,31 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1095685956}
     m_Modifications:
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: enemy
+      value: 
+      objectReference: {fileID: 102766254}
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: img
+      value: 
+      objectReference: {fileID: 562770267}
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: newParent
+      value: 
+      objectReference: {fileID: 811929576}
+    - target: {fileID: 1395849690669339006, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: soundEffects
+      value: 
+      objectReference: {fileID: 811929578}
+    - target: {fileID: 1395849690669339006, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: buttonType
+      value: 
+      objectReference: {fileID: 811929580}
     - target: {fileID: 3313511772235001970, guid: 343656d434157e14c818c8264c333aea,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -21452,6 +22358,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1635967283}
   m_CullTransparentMesh: 0
+--- !u!1 &1642701720 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2119725605737133191, guid: 343656d434157e14c818c8264c333aea,
+    type: 3}
+  m_PrefabInstance: {fileID: 967979012}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1648011753
 GameObject:
   m_ObjectHideFlags: 0
@@ -22082,6 +22994,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1689046894}
   m_CullTransparentMesh: 0
+--- !u!1 &1693426811 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3313511772235001971, guid: 343656d434157e14c818c8264c333aea,
+    type: 3}
+  m_PrefabInstance: {fileID: 1348553815}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1702088473
 GameObject:
   m_ObjectHideFlags: 0
@@ -22308,6 +23226,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1703382636}
   m_CullTransparentMesh: 0
+--- !u!1 &1739464814 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3313511772235001971, guid: 343656d434157e14c818c8264c333aea,
+    type: 3}
+  m_PrefabInstance: {fileID: 926465936}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1743278992
 GameObject:
   m_ObjectHideFlags: 0
@@ -22556,6 +23480,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1748801316}
   m_CullTransparentMesh: 0
+--- !u!1 &1750576627 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3313511772235001971, guid: 343656d434157e14c818c8264c333aea,
+    type: 3}
+  m_PrefabInstance: {fileID: 2047653294}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1753496732
 GameObject:
   m_ObjectHideFlags: 0
@@ -22796,6 +23726,31 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 214545316}
     m_Modifications:
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: enemy
+      value: 
+      objectReference: {fileID: 1304332013}
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: img
+      value: 
+      objectReference: {fileID: 893127675}
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: newParent
+      value: 
+      objectReference: {fileID: 811929576}
+    - target: {fileID: 1395849690669339006, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: buttonType
+      value: 
+      objectReference: {fileID: 811929580}
+    - target: {fileID: 1395849690669339006, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: soundEffects
+      value: 
+      objectReference: {fileID: 811929578}
     - target: {fileID: 3313511772235001970, guid: 343656d434157e14c818c8264c333aea,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -23705,6 +24660,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1827818187}
   m_CullTransparentMesh: 0
+--- !u!1 &1828300538 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2119725605737133191, guid: 343656d434157e14c818c8264c333aea,
+    type: 3}
+  m_PrefabInstance: {fileID: 322704590}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1829296811
 GameObject:
   m_ObjectHideFlags: 0
@@ -23818,6 +24779,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1829296811}
   m_CullTransparentMesh: 0
+--- !u!1 &1831275399 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2119725605737133191, guid: 343656d434157e14c818c8264c333aea,
+    type: 3}
+  m_PrefabInstance: {fileID: 527890597}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1842004069
 GameObject:
   m_ObjectHideFlags: 0
@@ -23931,6 +24898,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1842004069}
   m_CullTransparentMesh: 0
+--- !u!1 &1853382919 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3313511772235001971, guid: 343656d434157e14c818c8264c333aea,
+    type: 3}
+  m_PrefabInstance: {fileID: 480337954}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1855177847
 GameObject:
   m_ObjectHideFlags: 0
@@ -24503,6 +25476,31 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1248551221}
     m_Modifications:
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: enemy
+      value: 
+      objectReference: {fileID: 313256533}
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: img
+      value: 
+      objectReference: {fileID: 1100444359}
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: newParent
+      value: 
+      objectReference: {fileID: 811929576}
+    - target: {fileID: 1395849690669339006, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: soundEffects
+      value: 
+      objectReference: {fileID: 811929578}
+    - target: {fileID: 1395849690669339006, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: buttonType
+      value: 
+      objectReference: {fileID: 811929580}
     - target: {fileID: 3313511772235001970, guid: 343656d434157e14c818c8264c333aea,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -25105,6 +26103,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1913574464}
   m_CullTransparentMesh: 0
+--- !u!1 &1927870594 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2119725605737133191, guid: 343656d434157e14c818c8264c333aea,
+    type: 3}
+  m_PrefabInstance: {fileID: 911290923}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1931412072
 GameObject:
   m_ObjectHideFlags: 0
@@ -25376,7 +26380,7 @@ PrefabInstance:
     - target: {fileID: 7460575339053733825, guid: ba3eb3f7fc62649449daaae61b6780c9,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7460575339053733825, guid: ba3eb3f7fc62649449daaae61b6780c9,
         type: 3}
@@ -25830,6 +26834,24 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1972785457}
   m_CullTransparentMesh: 0
+--- !u!1 &1990112261 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3313511772235001971, guid: 343656d434157e14c818c8264c333aea,
+    type: 3}
+  m_PrefabInstance: {fileID: 623193218}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2004765238 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3313511772235001971, guid: 343656d434157e14c818c8264c333aea,
+    type: 3}
+  m_PrefabInstance: {fileID: 2054863324}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2006497853 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2119725605737133191, guid: 343656d434157e14c818c8264c333aea,
+    type: 3}
+  m_PrefabInstance: {fileID: 419988755}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2009742880
 GameObject:
   m_ObjectHideFlags: 0
@@ -25943,6 +26965,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2009742880}
   m_CullTransparentMesh: 0
+--- !u!1 &2019464075 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2119725605737133191, guid: 343656d434157e14c818c8264c333aea,
+    type: 3}
+  m_PrefabInstance: {fileID: 926465936}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2020884984
 GameObject:
   m_ObjectHideFlags: 0
@@ -26198,6 +27226,31 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 157856405}
     m_Modifications:
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: newParent
+      value: 
+      objectReference: {fileID: 811929576}
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: enemy
+      value: 
+      objectReference: {fileID: 1750576627}
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: img
+      value: 
+      objectReference: {fileID: 1432972126}
+    - target: {fileID: 1395849690669339006, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: soundEffects
+      value: 
+      objectReference: {fileID: 811929578}
+    - target: {fileID: 1395849690669339006, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: buttonType
+      value: 
+      objectReference: {fileID: 811929580}
     - target: {fileID: 3313511772235001970, guid: 343656d434157e14c818c8264c333aea,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -26323,6 +27376,31 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 771796366}
     m_Modifications:
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: enemy
+      value: 
+      objectReference: {fileID: 2004765238}
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: img
+      value: 
+      objectReference: {fileID: 1244453901}
+    - target: {fileID: 911653541968521075, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: newParent
+      value: 
+      objectReference: {fileID: 811929576}
+    - target: {fileID: 1395849690669339006, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: soundEffects
+      value: 
+      objectReference: {fileID: 811929578}
+    - target: {fileID: 1395849690669339006, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: buttonType
+      value: 
+      objectReference: {fileID: 811929580}
     - target: {fileID: 3313511772235001970, guid: 343656d434157e14c818c8264c333aea,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -26915,6 +27993,24 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2066991634}
   m_CullTransparentMesh: 0
+--- !u!1 &2076617523 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2119725605737133191, guid: 343656d434157e14c818c8264c333aea,
+    type: 3}
+  m_PrefabInstance: {fileID: 623193218}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2081488670 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2119725605737133191, guid: 343656d434157e14c818c8264c333aea,
+    type: 3}
+  m_PrefabInstance: {fileID: 762823087}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2087955085 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2119725605737133191, guid: 343656d434157e14c818c8264c333aea,
+    type: 3}
+  m_PrefabInstance: {fileID: 1288545323}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2097779642
 GameObject:
   m_ObjectHideFlags: 0
@@ -27028,6 +28124,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2097779642}
   m_CullTransparentMesh: 0
+--- !u!1 &2107765847 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3313511772235001971, guid: 343656d434157e14c818c8264c333aea,
+    type: 3}
+  m_PrefabInstance: {fileID: 944866829}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2125247651
 GameObject:
   m_ObjectHideFlags: 0
@@ -27057,7 +28159,7 @@ Transform:
   m_Children:
   - {fileID: 1420796069}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2128287075
 GameObject:
