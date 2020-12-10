@@ -29,23 +29,23 @@ public class Player : MonoBehaviour
     {
         //MainMenuScript mainMenu;
 
-        mainMenu = GameObject.Find("MenuController").GetComponent<MainMenuScript>();
-        //MainMenuScript.isSteve = isSteve;
-        //MainMenuScript.isToni = isToni;
+        //mainMenu = GameObject.Find("MenuController").GetComponent<MainMenuScript>();
+        ////MainMenuScript.isSteve = isSteve;
+        ////MainMenuScript.isToni = isToni;
 
-        //string isToni = PlayerPrefs.GetString("Toni");
-        //string isSteve = PlayerPrefs.GetString("Steve");
+        ////string isToni = PlayerPrefs.GetString("Toni");
+        ////string isSteve = PlayerPrefs.GetString("Steve");
 
-        //GameObject playerName = gameObject;
+        ////GameObject playerName = gameObject;
 
-        if (PlayerPrefs.GetString(mainMenu.player) == "Toni")
-        {
-            Debug.Log("toni");
-        }
-        else
-        {
-            Debug.Log("steve");
-        }
+        //if (PlayerPrefs.GetString(mainMenu.player) == "Toni")
+        //{
+        //    Debug.Log("toni");
+        //}
+        //else
+        //{
+        //    Debug.Log("steve");
+        //}
     }
 
     void Update()
