@@ -47,7 +47,7 @@ public class BeatObject : MonoBehaviour
 
         buttonTypeCheck();
 
-        reactionHit = gameObject.GetComponent<ReactionHit>();
+        reactionHit = gameObject.GetComponentInParent<ReactionHit>();
     }
 
     void Update()
@@ -221,6 +221,7 @@ public class BeatObject : MonoBehaviour
         {
             Debug.Log("Space");
             IsReaction();
+            DestroyReaction();
         }
         //if ((Input.GetKeyDown(KeyCode.Space)) && (gameObject.tag == "FaceButton_LShoulder"))
         //{
@@ -334,7 +335,7 @@ public class BeatObject : MonoBehaviour
         }
     }
 
-    private void IsReaction()
+    public bool IsReaction()
     {
         if (isHit)
         {
@@ -345,10 +346,16 @@ public class BeatObject : MonoBehaviour
             soundEffects.audio.clip = soundEffects.clips[0];
             soundEffects.audio.Play();
 
-            isAlive = 0;
-            Debug.Log(reactionHit.enemy.name);
-            Destroy(reactionHit.enemy);
+            isAlive = 0;;
+            Debug.Log(gameObject.transform.parent.name);
         }
+
+        return true;
+    }
+
+    private void DestroyReaction()
+    {
+        reactionHit.DestroyReaction();
     }
 
     private void BeatCheck()

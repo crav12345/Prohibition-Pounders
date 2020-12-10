@@ -9,21 +9,14 @@ public class ReactionHit : MonoBehaviour
     public GameObject enemy;
     public GameObject img;
     public GameObject newParent;
-    BeatObject beatObject;
-
-    // TO KEEP THINGS CLEANER, NOT NECESSARILY EASIER
-    // TODO:
-    /** ideas:
-     * spawn reaction img over head (width: 150     height: 50)
-     * if within range of player, then you have 3 seconds to hit
-     * hits are either perfect or miss
-     * FOR KEYBOARD -- tags are the shoulder and trigger buttons (space)
-    **/
+    public BeatObject beatObject;
 
     void Awake()
     {
         player = GameObject.Find("Player");
         enemy = gameObject;
+
+        beatObject = gameObject.transform.GetComponentInChildren<BeatObject>();
     }
 
     void Start()
@@ -33,7 +26,16 @@ public class ReactionHit : MonoBehaviour
 
     void Update()
     {
-        
+
+    }
+
+    public void DestroyReaction()
+    {
+        if (beatObject.IsReaction() == true)
+        {
+            Debug.Log("react was hit");
+            Destroy(gameObject);
+        }
     }
 
     public void OnTriggerEnter2D(Collider2D col)
@@ -45,11 +47,6 @@ public class ReactionHit : MonoBehaviour
             img.SetActive(true);
             enemy.transform.SetParent(newParent.transform);
         }
-
-        //if (col.tag == "Reaction")
-        //{
-        //    Debug.Log("reaction 666");
-        //}
     }
 
     public void OnTriggerExit2D(Collider2D col)

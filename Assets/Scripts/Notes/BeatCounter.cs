@@ -137,7 +137,6 @@ public class BeatCounter : MonoBehaviour
             restartButton.SetActive(true);
             nextButton.SetActive(false);
         }
-        /////////////////////////////////
 
         if (Input.GetKeyDown(KeyCode.P))
         {
@@ -153,7 +152,6 @@ public class BeatCounter : MonoBehaviour
             }
         }
 
-        //Debug.Log(audioSource.volume);
         if (audioSource.volume < 1f && canIncreaseVolumeFlag && !paused)
         {
             Debug.Log("Turn it up");
