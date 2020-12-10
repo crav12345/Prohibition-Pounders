@@ -226,19 +226,6 @@ public class BeatCounter : MonoBehaviour
             Destroy(GameObject.Find("Chords"));
             Destroy(GameObject.Find("HealthBar"));
         }
-        //*/
-
-        /* ADDED FOR ALPHA BUILD; SUBJECT TO CHANGE IN FUTURE BUILDS
-        // If player misses three beats, the music stops. This casues the
-        // results panel to display.
-        if (missedBeats >= 3)
-        {
-            audioSource.Stop();
-            Destroy(GameObject.Find("Notes"));
-            Destroy(GameObject.Find("HUDText"));
-            Destroy(GameObject.Find("Chords"));
-        }
-        //*/
     }
     #endregion
 
