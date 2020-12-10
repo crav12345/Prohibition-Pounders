@@ -46,6 +46,8 @@ public class BeatObject : MonoBehaviour
         buttonImg = gameObject.GetComponent<Image>();
 
         buttonTypeCheck();
+
+        reactionHit = gameObject.GetComponent<ReactionHit>();
     }
 
     void Update()

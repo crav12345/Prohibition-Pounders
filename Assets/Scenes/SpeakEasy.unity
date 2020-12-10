@@ -3013,6 +3013,16 @@ PrefabInstance:
       propertyPath: newParent
       value: 
       objectReference: {fileID: 164060374}
+    - target: {fileID: 1395849690669339006, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: soundEffects
+      value: 
+      objectReference: {fileID: 164060376}
+    - target: {fileID: 1395849690669339006, guid: 343656d434157e14c818c8264c333aea,
+        type: 3}
+      propertyPath: buttonType
+      value: 
+      objectReference: {fileID: 164060378}
     - target: {fileID: 3313511772235001970, guid: 343656d434157e14c818c8264c333aea,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7478,9 +7488,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c43fedcb3d63214386640d2367b0601, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currScore: 0
-  scoreIncreaseCheck: 0
-  playerHealth: {fileID: 23034179}
 --- !u!4 &505932217
 Transform:
   m_ObjectHideFlags: 0

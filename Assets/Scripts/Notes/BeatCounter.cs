@@ -153,7 +153,7 @@ public class BeatCounter : MonoBehaviour
             }
         }
 
-        Debug.Log(audioSource.volume);
+        //Debug.Log(audioSource.volume);
         if (audioSource.volume < 1f && canIncreaseVolumeFlag && !paused)
         {
             Debug.Log("Turn it up");
