@@ -39,6 +39,10 @@ public class BeatCounter : MonoBehaviour
     /////////////////////////////////////
 
     private bool paused = false;
+    private bool canIncreaseVolumeFlag;
+    private System.DateTime volStartTime;
+    private System.TimeSpan volTimeDifference;
+    private System.TimeSpan volWaitTime;
 
 
     [Header("UI Components")]
@@ -71,6 +75,8 @@ public class BeatCounter : MonoBehaviour
         playerHealth = 30;
         waitTime = new System.TimeSpan(5000000);
         /////////////////////////////////
+
+        volWaitTime = new System.TimeSpan(1000000);
 
         timer = delay;
 
@@ -146,6 +152,20 @@ public class BeatCounter : MonoBehaviour
                 paused = false;
             }
         }
+
+        Debug.Log(audioSource.volume);
+        if (audioSource.volume < 1f && canIncreaseVolumeFlag && !paused)
+        {
+            Debug.Log("Turn it up");
+            audioSource.volume += 0.1f;
+            volStartTime = System.DateTime.Now;
+            canIncreaseVolumeFlag = false;
+        }
+
+        volTimeDifference = System.DateTime.Now - volStartTime;
+
+        if (System.TimeSpan.Compare(volTimeDifference, volWaitTime) == 1 && !canIncreaseVolumeFlag)
+            canIncreaseVolumeFlag = true;
     }
 
     #region Beat checks
@@ -215,6 +235,7 @@ public class BeatCounter : MonoBehaviour
         playerHealth -= 10;
 
         // Debug.Log("Misses: " + missedBeats);
+        audioSource.volume = 0.1f;
 
         //* NEW HEALTH SYSTEM
         if (playerHealth <= 0)
