@@ -1,0 +1,36 @@
+fileFormatVersion: 2
+guid: 4adedd5a910ca544cb9f03a0c9eb8933
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - keyboardButton_Y: {instanceID: 0}
+  - keyboardButton_U: {instanceID: 0}
+  - keyboardButton_I: {instanceID: 0}
+  - keyboardButton_O: {instanceID: 0}
+  - keyboardButton_W: {instanceID: 0}
+  - keyboardButton_S: {instanceID: 0}
+  - keyboardButton_A: {instanceID: 0}
+  - keyboardButton_D: {instanceID: 0}
+  - keyboardButton_Space: {instanceID: 0}
+  - keyboardButton_LMouse: {instanceID: 0}
+  - keyboardButton_RMouse: {instanceID: 0}
+  - faceButton_X: {instanceID: 0}
+  - faceButton_O: {instanceID: 0}
+  - faceButton_Tri: {instanceID: 0}
+  - faceButton_Sq: {instanceID: 0}
+  - faceButton_Up: {instanceID: 0}
+  - faceButton_Down: {instanceID: 0}
+  - faceButton_Left: {instanceID: 0}
+  - faceButton_Right: {instanceID: 0}
+  - faceButton_LShoulder: {instanceID: 0}
+  - faceButton_RShoulder: {instanceID: 0}
+  - faceButton_LTrigger: {instanceID: 0}
+  - faceButton_RTrigger: {instanceID: 0}
+  - faceButton_LStick: {instanceID: 0}
+  - faceButton_RStick: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

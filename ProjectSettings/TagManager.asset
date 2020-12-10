@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Activator
+  - FaceButton_X
+  - FaceButton_O
+  - FaceButton_Tri
+  - FaceButton_Sq
+  - FaceButton_Up
+  - FaceButton_Down
+  - FaceButton_Left
+  - FaceButton_Right
+  - FaceButton_RShoulder
+  - FaceButton_LShoulder
+  - FaceButton_LTrigger
+  - FaceButton_RTrigger
+  - FaceButton_LStick
+  - FaceButton_RStick
+  - ButtonTypeChecker
+  - Enemy
+  - Reaction
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

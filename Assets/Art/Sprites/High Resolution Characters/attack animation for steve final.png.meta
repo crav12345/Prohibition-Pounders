@@ -1,0 +1,574 @@
+fileFormatVersion: 2
+guid: b0ba3697bda6cd847972e24c6c6e1324
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5134389735067087274
+    second: attack animation for steve final_0
+  - first:
+      213: -4526548592821531382
+    second: attack animation for steve final_1
+  - first:
+      213: 2877354361919998067
+    second: attack animation for steve final_2
+  - first:
+      213: 2686848374612324814
+    second: attack animation for steve final_3
+  - first:
+      213: -1510693930351763328
+    second: attack animation for steve final_4
+  - first:
+      213: 463775048067877954
+    second: attack animation for steve final_5
+  - first:
+      213: -7039669639535825901
+    second: attack animation for steve final_6
+  - first:
+      213: -7324184838738621222
+    second: attack animation for steve final_7
+  - first:
+      213: -715128574091477570
+    second: attack animation for steve final_8
+  - first:
+      213: -4157691028217755604
+    second: attack animation for steve final_9
+  - first:
+      213: 712910508027716326
+    second: attack animation for steve final_10
+  - first:
+      213: -5908426962981477275
+    second: attack animation for steve final_11
+  - first:
+      213: -6781247211322541605
+    second: attack animation for steve final_12
+  - first:
+      213: -406221355396856674
+    second: attack animation for steve final_13
+  - first:
+      213: -4345933662547724424
+    second: attack animation for steve final_14
+  - first:
+      213: 6597517726359325027
+    second: attack animation for steve final_15
+  - first:
+      213: 561028089561128082
+    second: attack animation for steve final_16
+  - first:
+      213: -318962911603897625
+    second: attack animation for steve final_17
+  - first:
+      213: 3206731534223409488
+    second: attack animation for steve final_18
+  - first:
+      213: 7106756164151556628
+    second: attack animation for steve final_19
+  - first:
+      213: 1628726346417068870
+    second: attack animation for steve final_20
+  - first:
+      213: 4448781559087048835
+    second: attack animation for steve final_21
+  - first:
+      213: 3207722040578362793
+    second: attack animation for steve final_22
+  - first:
+      213: 7222214133519339195
+    second: attack animation for steve final_23
+  - first:
+      213: -1060278335030135897
+    second: attack animation for steve final_24
+  - first:
+      213: 5613607956506060910
+    second: attack animation for steve final_25
+  - first:
+      213: 4190311028045291
+    second: attack animation for steve final_26
+  - first:
+      213: -2332251174247764967
+    second: attack animation for steve final_27
+  - first:
+      213: 3823369760122734280
+    second: attack animation for steve final_28
+  - first:
+      213: 6519289597325255782
+    second: attack animation for steve final_29
+  - first:
+      213: 7889101966255669164
+    second: attack animation for steve final_30
+  - first:
+      213: -8886808918112740476
+    second: attack animation for steve final_31
+  - first:
+      213: -8823123622465182105
+    second: attack animation for steve final_32
+  - first:
+      213: -3865429076029583518
+    second: attack animation for steve final_33
+  - first:
+      213: 1979939864634200119
+    second: attack animation for steve final_34
+  - first:
+      213: -1677818117924802597
+    second: attack animation for steve final_35
+  - first:
+      213: 4312545832056872772
+    second: attack animation for steve final_36
+  - first:
+      213: -5929356459624451519
+    second: attack animation for steve final_37
+  - first:
+      213: 1612634389555406273
+    second: attack animation for steve final_38
+  - first:
+      213: 4121129672876628710
+    second: attack animation for steve final_39
+  - first:
+      213: -6397967665157723024
+    second: attack animation for steve final_40
+  - first:
+      213: 3768634098327858492
+    second: attack animation for steve final_41
+  - first:
+      213: 8520240486879450867
+    second: attack animation for steve final_42
+  - first:
+      213: 6744995354548486080
+    second: attack animation for steve final_43
+  - first:
+      213: -6043002371632628626
+    second: attack animation for steve final_44
+  - first:
+      213: 6040255556276590988
+    second: attack animation for steve final_45
+  - first:
+      213: -598325759426138968
+    second: attack animation for steve final_46
+  - first:
+      213: -4262962565851104557
+    second: attack animation for steve final_47
+  - first:
+      213: 1121104679711206461
+    second: attack animation for steve final_48
+  - first:
+      213: 6332691552364899634
+    second: attack animation for steve final_49
+  - first:
+      213: -7859776746975331507
+    second: attack animation for steve final_50
+  - first:
+      213: 5551614951216730526
+    second: attack animation for steve final_51
+  - first:
+      213: -6028496577223238283
+    second: attack animation for steve final_52
+  - first:
+      213: 1433758710083638438
+    second: attack animation for steve final_53
+  - first:
+      213: -8691146352578134685
+    second: attack animation for steve final_54
+  - first:
+      213: 8025562319420970230
+    second: attack animation for steve final_55
+  - first:
+      213: -5032467522189362470
+    second: attack animation for steve final_56
+  - first:
+      213: 8262514695787892383
+    second: attack animation for steve final_57
+  - first:
+      213: -4053208206890719722
+    second: attack animation for steve final_58
+  - first:
+      213: -3041706555158499142
+    second: attack animation for steve final_59
+  - first:
+      213: 2371925904316309174
+    second: attack animation for steve final_60
+  - first:
+      213: -3162395222442605226
+    second: attack animation for steve final_61
+  - first:
+      213: -8165815537095608507
+    second: attack animation for steve final_62
+  - first:
+      213: 8950591356388636346
+    second: attack animation for steve final_63
+  - first:
+      213: 2863342523800232203
+    second: attack animation for steve final_64
+  - first:
+      213: -6677578062025156697
+    second: attack animation for steve final_65
+  - first:
+      213: 4507513958864397151
+    second: attack animation for steve final_66
+  - first:
+      213: 502863787319778037
+    second: attack animation for steve final_67
+  - first:
+      213: -6287488792015900905
+    second: attack animation for steve final_68
+  - first:
+      213: 3676972281462320631
+    second: attack animation for steve final_69
+  - first:
+      213: 4326217093716133164
+    second: attack animation for steve final_70
+  - first:
+      213: -2077984573634976592
+    second: attack animation for steve final_71
+  - first:
+      213: -8813277545632872795
+    second: attack animation for steve final_72
+  - first:
+      213: 1013247831352348067
+    second: attack animation for steve final_73
+  - first:
+      213: -6786647131140942643
+    second: attack animation for steve final_74
+  - first:
+      213: -8172424116194210908
+    second: attack animation for steve final_75
+  - first:
+      213: -4160879187088030170
+    second: attack animation for steve final_76
+  - first:
+      213: -8936750525888783366
+    second: attack animation for steve final_77
+  - first:
+      213: 3633231743930977898
+    second: attack animation for steve final_78
+  - first:
+      213: -1490086822389194687
+    second: attack animation for steve final_79
+  - first:
+      213: -6106808442093431617
+    second: attack animation for steve final_80
+  - first:
+      213: -4284612758539868772
+    second: attack animation for steve final_81
+  - first:
+      213: -4054458060314747068
+    second: attack animation for steve final_82
+  - first:
+      213: 5819742430952856031
+    second: attack animation for steve final_83
+  - first:
+      213: 7135540862818194009
+    second: attack animation for steve final_84
+  - first:
+      213: 3489474074216662442
+    second: attack animation for steve final_85
+  - first:
+      213: 4933727924984300581
+    second: attack animation for steve final_86
+  - first:
+      213: -6262981738303863011
+    second: attack animation for steve final_87
+  - first:
+      213: -9214186998950100644
+    second: attack animation for steve final_88
+  - first:
+      213: -8379674553899453372
+    second: attack animation for steve final_89
+  - first:
+      213: 4409051562214901186
+    second: attack animation for steve final_90
+  - first:
+      213: -7501256303840312299
+    second: attack animation for steve final_91
+  - first:
+      213: -4450076228357329445
+    second: attack animation for steve final_92
+  - first:
+      213: -3613684036312605060
+    second: attack animation for steve final_93
+  - first:
+      213: -3969334224222408900
+    second: attack animation for steve final_94
+  - first:
+      213: 1151486144357108260
+    second: attack animation for steve final_95
+  - first:
+      213: -4844514907198321596
+    second: attack animation for steve final_96
+  - first:
+      213: 803833302301265420
+    second: attack animation for steve final_97
+  - first:
+      213: -112761679075976972
+    second: attack animation for steve final_98
+  - first:
+      213: 8099510637597220361
+    second: attack animation for steve final_99
+  - first:
+      213: -1436345741357113894
+    second: attack animation for steve final_100
+  - first:
+      213: 5256965475199892959
+    second: attack animation for steve final_101
+  - first:
+      213: 6491764928004468637
+    second: attack animation for steve final_102
+  - first:
+      213: 6639499580591160292
+    second: attack animation for steve final_103
+  - first:
+      213: -8913594672909498006
+    second: attack animation for steve final_104
+  - first:
+      213: 5391591564975602399
+    second: attack animation for steve final_105
+  - first:
+      213: 3300597081805123393
+    second: attack animation for steve final_106
+  - first:
+      213: 7882706214197484763
+    second: attack animation for steve final_107
+  - first:
+      213: -4487959282898121913
+    second: attack animation for steve final_108
+  - first:
+      213: 6045899943546055258
+    second: attack animation for steve final_109
+  - first:
+      213: -2270673347418230311
+    second: attack animation for steve final_110
+  - first:
+      213: 1394941651241885110
+    second: attack animation for steve final_111
+  - first:
+      213: 5293551727305128316
+    second: attack animation for steve final_112
+  - first:
+      213: 942825880809110128
+    second: attack animation for steve final_113
+  - first:
+      213: -7115540197255488482
+    second: attack animation for steve final_114
+  - first:
+      213: -555905778977552170
+    second: attack animation for steve final_115
+  - first:
+      213: 2311327231049160950
+    second: attack animation for steve final_116
+  - first:
+      213: -8390480586462508676
+    second: attack animation for steve final_117
+  - first:
+      213: 3888226217485429514
+    second: attack animation for steve final_118
+  - first:
+      213: -7783152531717791458
+    second: attack animation for steve final_119
+  - first:
+      213: -3892541076859991679
+    second: attack animation for steve final_120
+  - first:
+      213: 6459695749854361471
+    second: attack animation for steve final_121
+  - first:
+      213: 1372441064950145938
+    second: attack animation for steve final_122
+  - first:
+      213: 4803665608832914164
+    second: attack animation for steve final_123
+  - first:
+      213: -8504797250997255724
+    second: attack animation for steve final_124
+  - first:
+      213: 6106225820143388158
+    second: attack animation for steve final_125
+  - first:
+      213: -4749145802924315766
+    second: attack animation for steve final_126
+  - first:
+      213: 5914013678146972805
+    second: attack animation for steve final_127
+  - first:
+      213: -6931738757918226385
+    second: attack animation for steve final_128
+  - first:
+      213: 5920087964229837730
+    second: attack animation for steve final_129
+  - first:
+      213: 4076708277302594417
+    second: attack animation for steve final_130
+  - first:
+      213: -1727430821334407986
+    second: attack animation for steve final_131
+  - first:
+      213: -7409320635424020459
+    second: attack animation for steve final_132
+  - first:
+      213: 1047743514389730702
+    second: attack animation for steve final_133
+  - first:
+      213: 6025954248999302367
+    second: attack animation for steve final_134
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: attack animation for steve final_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 640
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65e0ae63dbbfeb8b0800000000000000
+      internalID: -5134389735067087274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack animation for steve final_1
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 640
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0d045a99087e21c0800000000000000
+      internalID: -4526548592821531382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack animation for steve final_2
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 640
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 378892b1c8a6ee720800000000000000
+      internalID: 2877354361919998067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 26104e31bf41b034a8607ebceb6e60be
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
