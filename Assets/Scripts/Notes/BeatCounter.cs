@@ -47,6 +47,8 @@ public class BeatCounter : MonoBehaviour
     public GameObject notes;
     private int numNotes;
     private GameObject[] revisions;
+    private GameObject player;
+    private Player playerScript;
 
     [Header("UI Components")]
     // during game
@@ -96,10 +98,12 @@ public class BeatCounter : MonoBehaviour
         {
             numNotes += revisions[i].transform.childCount;
         }
-        Debug.Log(numNotes + " in revisions object.");
+
         numNotes += notes.transform.childCount;
         numNotes += GameObject.FindGameObjectsWithTag("Enemy").Length;
-        Debug.Log("There are " + numNotes + " notes on this beat map.");
+
+        player = GameObject.Find("Player");
+        playerScript = player.GetComponent<Player>();
     }
 
     void Update()
@@ -263,7 +267,7 @@ public class BeatCounter : MonoBehaviour
 
         // Call a method which plays hurt animation for a short time in
         // player.cs
-        
+        playerScript.hurtPlayer();
     }
     #endregion
 

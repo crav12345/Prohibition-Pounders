@@ -17,6 +17,9 @@ public class BeatObject : MonoBehaviour
     public GameObject particleEffect;
     private ReactionHit reactionHit;
 
+    private GameObject player;
+    private Player playerScript;
+
     void Awake()
     {
         noteCatcher = GameObject.Find("Note Catcher");
@@ -29,6 +32,9 @@ public class BeatObject : MonoBehaviour
         controls.Gameplay.DirectionalButtons.performed += ctx => DirectionalButtonCheck();
         controls.Gameplay.ShoulderButtons.performed += ctx => ShoulderButtonCheck();
         //controls.Gameplay.AnalogSticks.performed += ctx => AnalogStickCheck(ctx.ReadValue<Vector2>());
+
+        player = GameObject.Find("Player");
+        playerScript = player.GetComponent<Player>();
     }
 
     void OnEnable()
@@ -341,6 +347,9 @@ public class BeatObject : MonoBehaviour
         {
             Debug.Log("absolute unit");
             BeatCounter.instance.PerfectHit();
+
+            playerScript.attackEnemy();
+
             Instantiate(particleEffect, transform.position, particleEffect.transform.rotation);
 
             soundEffects.audio.clip = soundEffects.clips[0];

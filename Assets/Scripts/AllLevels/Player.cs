@@ -45,8 +45,27 @@ public class Player : MonoBehaviour
         }
     }
 
-    void Update()
+    public void hurtPlayer()
     {
+        StartCoroutine(waiter(hurt));
+    }
 
+    public void attackEnemy()
+    {
+        StartCoroutine(waiter(attack));
+    }
+
+    IEnumerator waiter(GameObject newAnim)
+    {
+        // Switch to desired anim
+        walk.SetActive(false);
+        newAnim.SetActive(true);
+
+        // Wait for a second
+        yield return new WaitForSeconds(1);
+
+        // Switch back
+        newAnim.SetActive(false);
+        walk.SetActive(true);
     }
 }
