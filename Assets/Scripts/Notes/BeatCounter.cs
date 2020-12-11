@@ -154,7 +154,6 @@ public class BeatCounter : MonoBehaviour
 
         if (audioSource.volume < 1f && canIncreaseVolumeFlag && !paused)
         {
-            Debug.Log("Turn it up");
             audioSource.volume += 0.1f;
             volStartTime = System.DateTime.Now;
             canIncreaseVolumeFlag = false;
@@ -245,6 +244,10 @@ public class BeatCounter : MonoBehaviour
             Destroy(GameObject.Find("Chords"));
             Destroy(GameObject.Find("HealthBar"));
         }
+
+        // Call a method which plays hurt animation for a short time in
+        // player.cs
+        
     }
     #endregion
 

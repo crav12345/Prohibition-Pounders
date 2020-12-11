@@ -14,20 +14,20 @@ public class MainMenuScript : MonoBehaviour
     public void SteveChosen()
     {
         //isSteve = true;
-        PlayerPrefs.SetString("Steve", player);
-        Debug.Log("steve true");
+        PlayerPrefs.SetString("Character", "Steve");
+        Debug.Log("Selected Steve");
     }
 
     public void ToniChosen()
     {
         //isToni = true;
-        PlayerPrefs.SetString("Toni", player);
-        Debug.Log("toni true");
+        PlayerPrefs.SetString("Character", "Toni");
+        Debug.Log("Selected Toni");
     }
 
     public void NextScene(string sceneName)
     {
-        DontDestroyOnLoad(menuController);
+        //DontDestroyOnLoad(menuController);
         SceneManager.LoadScene(sceneName);
     }
 

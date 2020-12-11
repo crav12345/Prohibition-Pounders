@@ -7,98 +7,48 @@ public class Player : MonoBehaviour
     //public bool isSteve;
     //public bool isToni;
 
-    [Header("Steve Game Objects")]
-    public GameObject steveGO;
-    public GameObject steveWalkGO;
-    public GameObject steveHurtGO;
-    public GameObject steveAttackGO;
+    [Header("Player Model Game Objects")]
+    private GameObject steve;
+    private GameObject toni;
+    private GameObject playerModel;
 
-    [Header("Toni Game Objects")]
-    public GameObject toniGO;
-    public GameObject toniWalkGO;
-    public GameObject toniHurtGO;
-    public GameObject toniAttackGO;
+    [Header("Player Model Anims")]
+    private GameObject walk;
+    private GameObject attack;
+    private GameObject hurt;
 
     [Header("Player Controls")]
     public bool isHit;
     public bool isAttacking;
 
-    MainMenuScript mainMenu;
 
     void Start()
     {
-        //MainMenuScript mainMenu;
+        steve = transform.Find("Steve").gameObject;
+        toni = transform.Find("Toni").gameObject;
 
-        //mainMenu = GameObject.Find("MenuController").GetComponent<MainMenuScript>();
-        ////MainMenuScript.isSteve = isSteve;
-        ////MainMenuScript.isToni = isToni;
-
-        ////string isToni = PlayerPrefs.GetString("Toni");
-        ////string isSteve = PlayerPrefs.GetString("Steve");
-
-        ////GameObject playerName = gameObject;
-
-        //if (PlayerPrefs.GetString(mainMenu.player) == "Toni")
-        //{
-        //    Debug.Log("toni");
-        //}
-        //else
-        //{
-        //    Debug.Log("steve");
-        //}
+        if (PlayerPrefs.GetString("Character", "No name") == "Toni")
+        {
+            Debug.Log("Player will appear as Toni.");
+            toni.SetActive(true);
+            playerModel = toni;
+            walk = playerModel.transform.Find("PlayerModel_Toni").gameObject;
+            attack = playerModel.transform.Find("PlayerModel_Toni_Attack").gameObject;
+            hurt = playerModel.transform.Find("PlayerModel_Toni_Hurt").gameObject;
+        }
+        else
+        {
+            Debug.Log("Player will appear as Steve.");
+            steve.SetActive(true);
+            playerModel = steve;
+            walk = playerModel.transform.Find("PlayerModel_Steve").gameObject;
+            attack = playerModel.transform.Find("PlayerModel_Steve_Attack").gameObject;
+            hurt = playerModel.transform.Find("PlayerModel_Steve_Hurt").gameObject;
+        }
     }
 
     void Update()
     {
-        if (isHit)
-        {
-            StartCoroutine(PlayAnimInterval(6, 1f));
 
-            steveWalkGO.SetActive(true);
-            steveAttackGO.SetActive(false);
-            steveHurtGO.SetActive(false);
-
-            isHit = false;
-        }
-
-        if (isAttacking)
-        {
-            StartCoroutine(PlayAnimInterval(6, 1f));
-
-            steveWalkGO.SetActive(true);
-            steveHurtGO.SetActive(false);
-            steveAttackGO.SetActive(false);
-
-            isAttacking = false;
-        }
-    }
-
-    private IEnumerator PlayAnimInterval(int n, float time)
-    {
-        if (isHit)
-        {
-            while (n > 0)
-            {
-                steveWalkGO.SetActive(false);
-                steveAttackGO.SetActive(false);
-                steveHurtGO.SetActive(true);
-
-                --n;
-                yield return new WaitForSeconds(time);
-            }
-        }
-
-        if (isAttacking)
-        {
-            while (n > 0)
-            {
-                steveWalkGO.SetActive(false);
-                steveHurtGO.SetActive(false);
-                steveAttackGO.SetActive(true);
-
-                --n;
-                yield return new WaitForSeconds(time);
-            }
-        }
     }
 }
