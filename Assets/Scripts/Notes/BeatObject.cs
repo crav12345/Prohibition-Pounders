@@ -227,7 +227,6 @@ public class BeatObject : MonoBehaviour
         {
             //Debug.Log("Space");
             IsReaction();
-            DestroyReaction();
         }
         //if ((Input.GetKeyDown(KeyCode.Space)) && (gameObject.tag == "FaceButton_LShoulder"))
         //{
@@ -341,8 +340,10 @@ public class BeatObject : MonoBehaviour
         }
     }
 
-    public bool IsReaction()
+    public void IsReaction()
     {
+        bool wasReacted = false;
+
         if (isHit)
         {
             Debug.Log("absolute unit");
@@ -357,14 +358,13 @@ public class BeatObject : MonoBehaviour
 
             isAlive = 0;;
             Debug.Log(gameObject.transform.parent.name);
+            wasReacted = true;
         }
 
-        return true;
-    }
-
-    private void DestroyReaction()
-    {
-        reactionHit.DestroyReaction();
+        if (wasReacted == true)
+        {
+            reactionHit.DestroyReaction();
+        }
     }
 
     private void BeatCheck()

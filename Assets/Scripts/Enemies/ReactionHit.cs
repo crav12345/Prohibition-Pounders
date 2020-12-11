@@ -31,11 +31,8 @@ public class ReactionHit : MonoBehaviour
 
     public void DestroyReaction()
     {
-        if (beatObject.IsReaction() == true)
-        {
-            //Debug.Log("react was hit");
-            Destroy(gameObject);
-        }
+        //Debug.Log("react was hit");
+        Destroy(gameObject);
     }
 
     public void OnTriggerEnter2D(Collider2D col)
