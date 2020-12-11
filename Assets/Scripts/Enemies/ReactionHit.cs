@@ -33,7 +33,7 @@ public class ReactionHit : MonoBehaviour
     {
         if (beatObject.IsReaction() == true)
         {
-            Debug.Log("react was hit");
+            //Debug.Log("react was hit");
             Destroy(gameObject);
         }
     }
@@ -42,7 +42,7 @@ public class ReactionHit : MonoBehaviour
     {
         if (col.tag == "Player")
         {
-            Debug.Log("collied");
+            //Debug.Log("collied");
 
             img.SetActive(true);
             enemy.transform.SetParent(newParent.transform);
@@ -53,7 +53,7 @@ public class ReactionHit : MonoBehaviour
     {
         if (col.tag == "Player")
         {
-            Debug.Log("collide exti");
+            //Debug.Log("collide exti");
         }
     }
 }

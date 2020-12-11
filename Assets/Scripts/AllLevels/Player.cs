@@ -29,7 +29,6 @@ public class Player : MonoBehaviour
 
         if (PlayerPrefs.GetString("Character", "No name") == "Toni")
         {
-            Debug.Log("Player will appear as Toni.");
             toni.SetActive(true);
             playerModel = toni;
             walk = playerModel.transform.Find("PlayerModel_Toni").gameObject;
@@ -38,7 +37,6 @@ public class Player : MonoBehaviour
         }
         else
         {
-            Debug.Log("Player will appear as Steve.");
             steve.SetActive(true);
             playerModel = steve;
             walk = playerModel.transform.Find("PlayerModel_Steve").gameObject;

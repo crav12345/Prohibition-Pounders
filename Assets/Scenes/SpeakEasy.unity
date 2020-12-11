@@ -9477,8 +9477,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba8ffd468778cfe46ac2a3253d9b9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  steve: {fileID: 0}
-  toni: {fileID: 0}
   isHit: 0
   isAttacking: 0
 --- !u!4 &719482136
@@ -12235,6 +12233,7 @@ MonoBehaviour:
   currMultiplier: 0
   multiplierThresholds: 0a0000001e000000320000004b0000005a00000064000000
   healthBar: {fileID: 23034179}
+  notes: {fileID: 164060374}
   scoreTxt: {fileID: 233609452}
   multiplierTxt: {fileID: 1646141793}
   hitQualityTxt: {fileID: 388232665}
@@ -20623,7 +20622,7 @@ GameObject:
   - component: {fileID: 1642437979}
   m_Layer: 5
   m_Name: Revisions
-  m_TagString: Untagged
+  m_TagString: revisions
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

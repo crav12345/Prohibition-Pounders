@@ -44,6 +44,9 @@ public class BeatCounter : MonoBehaviour
     private System.TimeSpan volTimeDifference;
     private System.TimeSpan volWaitTime;
 
+    public GameObject notes;
+    private int numNotes;
+    private GameObject[] revisions;
 
     [Header("UI Components")]
     // during game
@@ -87,6 +90,16 @@ public class BeatCounter : MonoBehaviour
             else
                 beatCount[i] = GameObject.Find("Note (" + i + ")");
         }
+        revisions = GameObject.FindGameObjectsWithTag("revisions");
+
+        for (int i = 0; i < revisions.Length; i++)
+        {
+            numNotes += revisions[i].transform.childCount;
+        }
+        Debug.Log(numNotes + " in revisions object.");
+        numNotes += notes.transform.childCount;
+        numNotes += GameObject.FindGameObjectsWithTag("Enemy").Length;
+        Debug.Log("There are " + numNotes + " notes on this beat map.");
     }
 
     void Update()
@@ -105,7 +118,7 @@ public class BeatCounter : MonoBehaviour
                 if (timer > 5)
                 {
                     resultsScreen.SetActive(true);
-                    Debug.Log("end game");
+                    //Debug.Log("end game");
                 }
 
                 ResultsScreenTexts();
@@ -168,7 +181,7 @@ public class BeatCounter : MonoBehaviour
     #region Beat checks
     public void BeatHit()
     {
-        //Debug.Log("Hit");
+        Debug.Log("Hit");
 
         if (currMultiplier - 1 < multiplierThresholds.Length)
         {
@@ -194,6 +207,7 @@ public class BeatCounter : MonoBehaviour
         currScore += scorePerOkBeat * currMultiplier;
         BeatHit();
         okBeats++;
+        Debug.Log(okBeats + greatBeats + perfectBeats);
     }
 
     public void GreatHit()
@@ -205,6 +219,7 @@ public class BeatCounter : MonoBehaviour
         currScore += scorePerGreatBeat * currMultiplier;
         BeatHit();
         greatBeats++;
+        Debug.Log(okBeats + greatBeats + perfectBeats);
     }
 
     public void PerfectHit()
@@ -216,6 +231,7 @@ public class BeatCounter : MonoBehaviour
         currScore += scorePerPerfectBeat * currMultiplier;
         BeatHit();
         perfectBeats++;
+        Debug.Log(okBeats + greatBeats + perfectBeats);
     }
 
     public void BeatMiss()
@@ -260,7 +276,7 @@ public class BeatCounter : MonoBehaviour
         missedTxt.text = "" + missedBeats;
 
         float hitCount = okBeats + greatBeats + perfectBeats;
-        float percentCount = (hitCount / beatCount.Length) * 100f;
+        float percentCount = (hitCount / numNotes) * 100f;
 
         percentageTxt.text = percentCount.ToString("F1") + "%";
 

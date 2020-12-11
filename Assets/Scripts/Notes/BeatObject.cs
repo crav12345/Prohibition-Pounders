@@ -219,7 +219,7 @@ public class BeatObject : MonoBehaviour
 
         if ((Input.GetKeyDown(KeyCode.Space)) && (gameObject.tag == "FaceButton_LShoulder"))
         {
-            Debug.Log("Space");
+            //Debug.Log("Space");
             IsReaction();
             DestroyReaction();
         }

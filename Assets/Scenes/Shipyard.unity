@@ -123,12 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &18375113 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2448607300467447526, guid: ea407003eee24ff49bf4b10177eff7c7,
-    type: 3}
-  m_PrefabInstance: {fileID: 2448607300484740911}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &18375114 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2448607300467447525, guid: ea407003eee24ff49bf4b10177eff7c7,
@@ -4170,12 +4164,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 499912763}
   m_CullTransparentMesh: 0
---- !u!1 &530405558 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2463644432686332974, guid: 95acd8d03a1dd4c4abace3d625df626a,
-    type: 3}
-  m_PrefabInstance: {fileID: 2463644432176407704}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &531215718
 GameObject:
   m_ObjectHideFlags: 0
@@ -5228,12 +5216,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 603903479}
   m_CullTransparentMesh: 0
---- !u!1 &605735248 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2448607301088116351, guid: ea407003eee24ff49bf4b10177eff7c7,
-    type: 3}
-  m_PrefabInstance: {fileID: 2448607300484740911}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &610179401
 GameObject:
   m_ObjectHideFlags: 0
@@ -5958,12 +5940,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 7460575339053733825, guid: ba3eb3f7fc62649449daaae61b6780c9,
     type: 3}
   m_PrefabInstance: {fileID: 7460575338379703791}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &688849410 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2463644431789680282, guid: 95acd8d03a1dd4c4abace3d625df626a,
-    type: 3}
-  m_PrefabInstance: {fileID: 2463644432176407704}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &700183663
 GameObject:
@@ -7982,12 +7958,6 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 1821692162}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1026989200 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2448607300938935231, guid: ea407003eee24ff49bf4b10177eff7c7,
-    type: 3}
-  m_PrefabInstance: {fileID: 2448607300484740911}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1058522997
 GameObject:
   m_ObjectHideFlags: 0
@@ -8708,6 +8678,7 @@ MonoBehaviour:
   currMultiplier: 0
   multiplierThresholds: 0a0000001e000000320000004b0000005a00000064000000
   healthBar: {fileID: 1725741212}
+  notes: {fileID: 59254484}
   scoreTxt: {fileID: 553540783}
   multiplierTxt: {fileID: 1589708448}
   hitQualityTxt: {fileID: 762693084}
@@ -13748,12 +13719,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1791622715}
   m_CullTransparentMesh: 0
---- !u!1 &1793045973 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2463644430727500109, guid: 95acd8d03a1dd4c4abace3d625df626a,
-    type: 3}
-  m_PrefabInstance: {fileID: 2463644432176407704}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1799006836
 GameObject:
   m_ObjectHideFlags: 0
@@ -14045,12 +14010,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 343656d434157e14c818c8264c333aea, type: 3}
---- !u!1 &1830861573 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2463644430781833117, guid: 95acd8d03a1dd4c4abace3d625df626a,
-    type: 3}
-  m_PrefabInstance: {fileID: 2463644432176407704}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1830861574 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2463644430781833118, guid: 95acd8d03a1dd4c4abace3d625df626a,
@@ -15623,12 +15582,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1977251207}
   m_CullTransparentMesh: 0
---- !u!1 &1979819006 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2448607299713078481, guid: ea407003eee24ff49bf4b10177eff7c7,
-    type: 3}
-  m_PrefabInstance: {fileID: 2448607300484740911}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1986785679
 GameObject:
   m_ObjectHideFlags: 0
@@ -16019,14 +15972,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba8ffd468778cfe46ac2a3253d9b9e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  steveGO: {fileID: 1830861573}
-  steveWalkGO: {fileID: 530405558}
-  steveHurtGO: {fileID: 1793045973}
-  steveAttackGO: {fileID: 688849410}
-  toniGO: {fileID: 18375113}
-  toniWalkGO: {fileID: 1026989200}
-  toniHurtGO: {fileID: 605735248}
-  toniAttackGO: {fileID: 1979819006}
   isHit: 0
   isAttacking: 0
 --- !u!1 &2118992603
