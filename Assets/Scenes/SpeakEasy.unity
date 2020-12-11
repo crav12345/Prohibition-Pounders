@@ -12231,7 +12231,7 @@ MonoBehaviour:
   - {fileID: 0}
   currScore: 0
   currMultiplier: 0
-  multiplierThresholds: 0a0000001e000000320000004b0000005a00000064000000
+  multiplierThresholds: 060000000600000006000000060000000600000006000000
   healthBar: {fileID: 23034179}
   notes: {fileID: 164060374}
   scoreTxt: {fileID: 233609452}
