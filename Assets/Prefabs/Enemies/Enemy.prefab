@@ -98,8 +98,6 @@ MonoBehaviour:
   soundEffects: {fileID: 0}
   particleEffect: {fileID: 9110780715945939554, guid: 60e4449d8729da6489bdbd46f5bc3004,
     type: 3}
-  enemy: {fileID: 0}
-  isReactionBeat: 0
 --- !u!61 &2820210202416267685
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -164,7 +162,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 150, y: -300}
+  m_AnchoredPosition: {x: 150, y: -400}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3313511772235001967
@@ -243,6 +241,7 @@ MonoBehaviour:
   enemy: {fileID: 0}
   img: {fileID: 0}
   newParent: {fileID: 0}
+  beatObject: {fileID: 0}
 --- !u!58 &5943269614849615761
 CircleCollider2D:
   m_ObjectHideFlags: 0
