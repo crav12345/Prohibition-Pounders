@@ -15,9 +15,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Park.unity
     guid: 7e5740112f4097442840d976f9d7505d
   - enabled: 1
+    path: Assets/Scenes/Alley.unity
+    guid: 8aa5ceeb5d3dcec40939d9165efe76ae
+  - enabled: 1
     path: Assets/Scenes/SpeakEasy.unity
     guid: e568448227af7934baf9996721b0d7a5
   - enabled: 1
-    path: Assets/Scenes/Alley.unity
-    guid: 8aa5ceeb5d3dcec40939d9165efe76ae
+    path: Assets/Scenes/Factory.unity
+    guid: c66b365c60411004fa715df36ba0d4ff
   m_configObjects: {}
