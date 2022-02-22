@@ -1,2 +1,2 @@
 # ProhibitionPounders
-BMS Games' final project for GAME 480N with Prof. Fanfarelli
+A rhythm game created using Unity and C# for GAME 480N Game Studio.
